@@ -27,7 +27,7 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: robe-izanagi
           template: classic
           base: header, activity, community, repositories, metadata
@@ -38,18 +38,12 @@ jobs:
           
           # Languages plugin
           plugin_languages: true
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_indepth: true
           plugin_languages_limit: 8
-          plugin_languages_other: true
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 30
-          plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
+          plugin_languages_indepth: true
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_recent_days: 365
+          plugin_languages_recent_load: 1000
           
           # Auto-commit configuration
           committer_token: ${{ secrets.GITHUB_TOKEN }}
