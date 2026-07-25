@@ -1,3 +1,6 @@
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)
+
 # Helloooo! I'm Robe.
 
 ## About Me
