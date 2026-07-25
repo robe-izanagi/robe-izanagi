@@ -1,7 +1,7 @@
 <!-- BANNER SECTION -->
 <!-- Kung nag-upload ka ng image, gamitin ito -->
 <p align="center">
-  <img src="banner" alt="banner" width="100%" />
+  <img src="banner.jpg" alt="banner" width="100%" />
 </p>
 <!-- Kung gusto mo ng auto-generated banner, palitan ang nasa itaas ng -->
 <!-- <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Helloooo!%20I'm%20Robe&fontSize=60&fontAlignY=35&animation=twinkling" width="100%"></p> -->
