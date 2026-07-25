@@ -1,76 +1,62 @@
-<!-- BANNER SECTION -->
+<!-- BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Helloooo!%20I'm%20Robe&fontSize=60&fontAlignY=35&animation=twinkling" width="100%">
+  <img src="banner.jpg" alt="banner" width="100%" />
 </p>
 
----
+<!-- HEADING -->
+<h1 align="center">Helloooo! I'm Robe 👋</h1>
 
-# Helloooo! I'm Robe
+<!-- VISITOR BADGE (optional, gaya ng kanila) -->
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Robe_visitor_badge&left_color=royalblue&right_color=black" />
 
-## About Me
-Chill
-
----
-
-## Languages and Tools
+<!-- LANGUAGES AND TOOLS -->
+<h3 align="center">🛠️ Languages and Tools</h3>
 
 <p align="center">
-  <!-- Programming Languages -->
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-  <br>
-  <!-- Web Dev -->
-  <img src="https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-  <br>
-  <!-- Databases & Tools -->
-  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,cs,c,cpp,java,js,ts,dart,r,php,html,css,react,nodejs,express,mysql,mongodb,postgres,supabase,github" alt="Skills and tools"/>
+  </a>
 </p>
 
----
+<!-- SNAKE ANIMATION -->
+![GitHub Snake](https://raw.githubusercontent.com/Robe/Robe/refs/heads/output/github-snake-dark.svg)
 
-## GitHub Stats
+<!-- TWO-COLUMN LAYOUT -->
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
+  <!-- Left Column: Metrics -->
+  <div style="flex: 1; max-width: 45%;">
+    <img align="left" width="50%" alt="GitHub Metrics" src="https://github.com/Robe/Robe/blob/main/github-metrics.svg">
+  </div>
 
-<!-- FIXED: Tamang URL ito — dapat gumana pagkatapos mong i-run ang workflow -->
-<img src="https://github.com/Robe/Robe/blob/main/github-metrics.svg?raw=true" alt="Metrics" width="100%" />
+  <!-- Right Column: Social, Fun Facts, About Me -->
+  <div style="flex: 1; max-width: 45%; text-align: left; margin-left: 20px;">
+    <h3>🌐 Let's Connect and Grow Together!</h3>
+    <p>
+      <a href="https://facebook.com/yourprofile" target="_blank">
+        <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/facebook.svg" alt="Facebook">
+      </a>
+      <a href="https://github.com/Robe" target="_blank">
+        <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" alt="GitHub">
+      </a>
+      <!-- Kung may iba ka pang social links, idagdag mo dito -->
+    </p>
 
-<!-- Snake Animation (Gaya ng kay OfficialCodeVoyage) -->
-## Contribution Snake
+    <h3>✨ Fun Facts</h3>
+    <ul>
+      <li>I'm still learning, but I love exploring new technologies.</li>
+      <li>I enjoy building web apps and solving coding problems.</li>
+      <li>When I'm not coding, I play sports and learn new things.</li>
+    </ul>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Robe/Robe/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Robe/Robe/output/github-snake.svg" />
-  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Robe/Robe/output/github-snake.svg" />
-</picture>
-
----
-
-## Let's Connect and Grow Together!
-
-<p align="center">
-  <a href="https://facebook.com/yourprofile"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" /></a>
-  <a href="https://github.com/Robe"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <!-- 🔧 Palitan ang "yourprofile" ng iyong actual Facebook username -->
-</p>
-
----
-
-<!-- FOOTER -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
-</p>
+    <h3>🧑‍💻 About Me</h3>
+    <p>
+      I'm a curious developer who is still learning and passionate about web development, 
+      software engineering, and open‑source contributions. I enjoy building projects 
+      that solve real‑world problems and continuously improving my skills.
+    </p>
+    <p>
+      My journey in tech is just beginning, but I'm eager to learn from the community 
+      and share my experiences along the way.
+    </p>
+  </div>
+</div>
