@@ -1,0 +1,38 @@
+name: Metrics
+on:
+  # Schedule daily updates (optional)
+  schedule: [{cron: "0 0 * * *"}]
+  # Manual trigger
+  workflow_dispatch:
+  # Update on push to main
+  push: {branches: ["main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token (automatic, no need to change)
+          token: ${{ secrets.METRICS_TOKEN }} # Gamitin ang GITHUB_TOKEN or personal token
+  
+          # Options (ito ang magge-generate ng stats)
+          user: [YOUR_USERNAME] # Palitan ng username mo
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Chicago # or Asia/Manila
+  
+          # Plugin para sa languages (gaya ng nasa image)
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 6
+  
+          # Plugin para sa activity (commits, issues, prs)
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          
+          # Plugin para sa follow-up / stats
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
