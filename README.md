@@ -28,3 +28,5 @@ I'm still learning!
 - Postgre
 - Supabase
 - GitHub
+\
+[![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=flat&logo=facebook)](https://www.facebook.com/Robe.Farol)
