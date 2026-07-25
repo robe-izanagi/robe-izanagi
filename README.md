@@ -35,19 +35,19 @@
       </p>
       <h3>✨ Fun Facts</h3>
       <ul>
-        <li>I'm still learning, but I love exploring new technologies.</li>
-        <li>I enjoy building web apps and solving coding problems.</li>
-        <li>When I'm not coding, I play sports and learn new things.</li>
+        <li>Chill guy who codes</li>
+        <li>Full Stack Developer</li>
+        <li>Still learning, always curious</li>
+        <li>Enjoy building web apps</li>
+        <li>Rubber ducking gods 🦆 - talk to the duck, find the bug</li>
       </ul>
       <h3>🧑‍💻 About Me</h3>
       <p>
-        I'm a curious developer who is still learning and passionate about web development, 
-        software engineering, and open‑source contributions. I enjoy building projects 
-        that solve real‑world problems and continuously improving my skills.
+        Just a chill guy navigating the world of code.  
+Still learning, still building, still breaking things - that's how I roll.
       </p>
       <p>
-        My journey in tech is just beginning, but I'm eager to learn from the community 
-        and share my experiences along the way.
+         Full stack dev, at your service.
       </p>
     </td>
   </tr>
