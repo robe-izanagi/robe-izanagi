@@ -15,39 +15,43 @@
 
 ![GitHub Snake](https://raw.githubusercontent.com/robe-izanagi/robe-izanagi/refs/heads/output/github-snake-dark.svg)
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
-    <!-- Left Column: Metrics -->
-    <div style="flex: 1; max-width: 45%;">
-        <img align="left" width="50%" alt="GitHub Metrics" src="https://github.com/robe-izanagi/robe-izanagi/blob/main/github-metrics.svg">
-    </div>
+<!-- Left Column: Metrics -->
+<p align="center">
+  <img src="https://github.com/robe-izanagi/robe-izanagi/blob/main/github-metrics.svg" alt="Metrics" width="100%" />
+</p>
 
-    <div style="flex: 1; max-width: 45%; text-align: left; margin-left: 20px;">
-        <h3>🌐 Let's Connect and Grow Together!</h3>
-        <p>
-            <a href="https://facebook.com/yourprofile" target="_blank">
-                <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/facebook.svg" alt="Facebook">
-            </a>
-            <a href="https://github.com/robe-izanagi" target="_blank">
-                <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" alt="GitHub">
-            </a>
-        </p>
+---
 
-        <h3>✨ Fun Facts</h3>
-        <ul>
-            <li>I'm still learning, but I love exploring new technologies.</li>
-            <li>I enjoy building web apps and solving coding problems.</li>
-            <li>When I'm not coding, I play sports and learn new things.</li>
-        </ul>
+## 🌐 Let's Connect and Grow Together!
 
-        <h3>🧑‍💻 About Me</h3>
-        <p>
-            I'm a curious developer who is still learning and passionate about web development, 
-            software engineering, and open‑source contributions. I enjoy building projects 
-            that solve real‑world problems and continuously improving my skills.
-        </p>
-        <p>
-            My journey in tech is just beginning, but I'm eager to learn from the community 
-            and share my experiences along the way.
-        </p>
-    </div>
-</div>
+<p align="center">
+  <a href="https://facebook.com/yourprofile" target="_blank">
+    <img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook">
+  </a>
+  <a href="https://github.com/robe-izanagi" target="_blank">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
+
+---
+
+## ✨ Fun Facts
+
+- I'm still learning, but I love exploring new technologies.
+- I enjoy building web apps and solving coding problems.
+- When I'm not coding, I play sports and learn new things.
+
+---
+
+## 🧑‍💻 About Me
+
+I'm a curious developer who is still learning and passionate about web development, software engineering, and open‑source contributions. I enjoy building projects that solve real‑world problems and continuously improving my skills.
+
+My journey in tech is just beginning, but I'm eager to learn from the community and share my experiences along the way.
+
+---
+
+<!-- FOOTER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
+</p>
