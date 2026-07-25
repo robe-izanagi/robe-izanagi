@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }} # Gamitin ang GITHUB_TOKEN or personal token
   
           # Options (ito ang magge-generate ng stats)
-          user: [YOUR_USERNAME] # Palitan ng username mo
+          user: robe-izanagi 
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Chicago # or Asia/Manila
