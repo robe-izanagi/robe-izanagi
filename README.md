@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Helloooo!%20I'm%20Robe&fontSize=60&fontAlignY=35&animation=twinkling" width="100%">
 </p>
 
-<h1 align="center">Helloooo! I'm Robe 👋</h1>
+<h1 align="center">Helloooo! I'm Robe ☕︎</h1>
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=robe-izanagi.robe-izanagi&left_color=%23000000&right_color=%23099012&logo=github" />
 
 <h3 align="center">:hammer_and_wrench: Languages and Tools</h3>
@@ -26,7 +26,7 @@
     <td width="50%" valign="top">
       <h3>🌐 Find me on</h3>
       <p>
-        <a href="https://facebook.com/yourprofile" target="_blank">
+        <a href="https://facebook.com/Robe.Farol" target="_blank">
           <img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook">
         </a>
         <a href="https://github.com/robe-izanagi" target="_blank">
