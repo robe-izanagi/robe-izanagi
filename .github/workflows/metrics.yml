@@ -1,10 +1,12 @@
 name: GitHub Metrics
 on:
+  # Manual trigger only
   workflow_dispatch:
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment: production
     permissions:
       contents: write
       issues: read
@@ -12,23 +14,44 @@ jobs:
       
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+          
+      - name: Fix Docker installation conflicts
+        run: |
+          sudo apt-get remove -y containerd docker.io containerd.io
+          sudo apt-get update
+          sudo apt-get install -y docker.io jq
           
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: Robe   # <<< PALITAN ITO SA USERNAME MO
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Robe
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: true
+          config_octicon: true
           config_timezone: Asia/Manila
+          config_twemoji: true
           
+          # Languages plugin
           plugin_languages: true
-          plugin_languages_limit: 6
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_indepth: true
+          plugin_languages_limit: 8
+          plugin_languages_other: true
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
           
-          # --- IMPORTANTE: ITO ANG MAGCO-COMMIT NG SVG ---
+          # Auto-commit configuration
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           committer_message: "📈 Update GitHub metrics [skip ci]"
