@@ -1,6 +1,7 @@
 [![Alt text](kwork_PavloBondarenko_12.jpg)](https://pavlobondarenko.net)
 
 <h1 align="center">Helloooo! I'm Robe 👋 </h1>
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=username.visitor-badge&left_color=%23000000&right_color=%23099012&logo=github)
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Robe_visitor_badge&left_color=royalblue&right_color=black"  />
 
 <h3 align="center">:hammer_and_wrench: Languages and Tools</h3>
