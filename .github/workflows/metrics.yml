@@ -1,10 +1,6 @@
 name: GitHub Metrics
 on:
-  # Manual trigger (para ma-run mo agad)
   workflow_dispatch:
-  # Auto-run every day
-  schedule:
-    - cron: "0 0 * * *"
 
 jobs:
   github-metrics:
@@ -21,41 +17,18 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@v3.34
         with:
-          # Gamitin ang default token para simple (gumagana ito)
           token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # Palitan ito ng iyong username
-          user: Robe
-          
-          # Template at base options
+          user: Robe   # <<< PALITAN ITO SA USERNAME MO
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: true
-          config_timezone: Asia/Manila  # Philippine Timezone
+          config_timezone: Asia/Manila
           
-          # --- LANGUAGES PLUGIN (Most Used Languages) ---
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_indepth: true
+          plugin_languages: true
           plugin_languages_limit: 6
           plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
           
-          # --- ACTIVITY PLUGIN (Commits, PRs, Issues) ---
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          
-          # --- FOLLOWUP PLUGIN (Followers, Following stats) ---
-          plugin_followup: yes
-          plugin_followup_sections: repositories, user
-          
-          # --- LEETCODE PLUGIN (Kung may LeetCode ka, palitan mo 'Robe'. Kung wala, pwedeng alisin) ---
-          # plugin_leetcode: yes
-          # plugin_leetcode_user: Robe
-          # plugin_leetcode_sections: solved
-          
-          # Auto-commit configuration (para ma-save ang SVG sa repo)
+          # --- IMPORTANTE: ITO ANG MAGCO-COMMIT NG SVG ---
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           committer_message: "📈 Update GitHub metrics [skip ci]"
