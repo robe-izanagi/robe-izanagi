@@ -8,12 +8,12 @@
 
 ---
 
-# Helloooo! I'm Robe 👋
+# Helloooo! I'm Robe
 
 ## About Me
 I'm still learning! I'm a passionate developer who loves exploring new technologies.  
 I enjoy building web applications, solving coding problems, and continuously improving my skills.  
-When I'm not coding, I love playing sports and learning new things. 🚀
+When I'm not coding, I love playing sports and learning new things.
 
 ---
 
@@ -49,13 +49,13 @@ When I'm not coding, I love playing sports and learning new things. 🚀
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 <!-- Ang dynamic stats na ito ay mage-generate after mong i-setup ang workflow sa Step 4 -->
 <img src="https://github.com/Robe/Robe/blob/main/github-metrics.svg?raw=true" alt="Metrics" width="100%" />
 
 ---
 
-## Let's Connect and Grow Together! 🌐
+## Let's Connect and Grow Together! 
 <p align="center">
   <a href="https://facebook.com/yourprofile"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" /></a>
   <a href="https://github.com/Robe"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
