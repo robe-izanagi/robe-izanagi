@@ -1,19 +1,14 @@
 <!-- BANNER SECTION -->
-<!-- Kung nag-upload ka ng image, gamitin ito -->
 <p align="center">
-  <img src="banner.jpg" alt="banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Helloooo!%20I'm%20Robe&fontSize=60&fontAlignY=35&animation=twinkling" width="100%">
 </p>
-<!-- Kung gusto mo ng auto-generated banner, palitan ang nasa itaas ng -->
-<!-- <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Helloooo!%20I'm%20Robe&fontSize=60&fontAlignY=35&animation=twinkling" width="100%"></p> -->
 
 ---
 
 # Helloooo! I'm Robe
 
 ## About Me
-I'm still learning! I'm a passionate developer who loves exploring new technologies.  
-I enjoy building web applications, solving coding problems, and continuously improving my skills.  
-When I'm not coding, I love playing sports and learning new things.
+Chill
 
 ---
 
@@ -50,16 +45,27 @@ When I'm not coding, I love playing sports and learning new things.
 ---
 
 ## GitHub Stats
-<!-- Ang dynamic stats na ito ay mage-generate after mong i-setup ang workflow sa Step 4 -->
+
+<!-- FIXED: Tamang URL ito — dapat gumana pagkatapos mong i-run ang workflow -->
 <img src="https://github.com/Robe/Robe/blob/main/github-metrics.svg?raw=true" alt="Metrics" width="100%" />
+
+<!-- Snake Animation (Gaya ng kay OfficialCodeVoyage) -->
+## Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Robe/Robe/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Robe/Robe/output/github-snake.svg" />
+  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Robe/Robe/output/github-snake.svg" />
+</picture>
 
 ---
 
-## Let's Connect and Grow Together! 
+## Let's Connect and Grow Together!
+
 <p align="center">
   <a href="https://facebook.com/yourprofile"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" /></a>
   <a href="https://github.com/Robe"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <!-- Add Twitter, LinkedIn, YouTube here if you want -->
+  <!-- 🔧 Palitan ang "yourprofile" ng iyong actual Facebook username -->
 </p>
 
 ---
