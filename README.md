@@ -1,16 +1,26 @@
-## Hi there 👋
+# Helloooo! I'm Robe.
 
-<!--
-**robe-izanagi/robe-izanagi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
+I'm still learning!
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Languages and Tools
+- Python
+- C#
+- C
+- C++
+- Java
+- JavaScript
+- TypeScript
+- Dart
+- R
+- PHP
+- HTML
+- CSS
+- React
+- Express
+- Node
+- Mysql
+- MongoDB
+- Postgre
+- Supabase
+- GitHub
