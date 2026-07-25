@@ -24,7 +24,7 @@
     </td>
     <!-- RIGHT COLUMN: Social, Fun Facts, About Me -->
     <td width="50%" valign="top">
-      <h3>🌐 Let's Connect and Grow Together!</h3>
+      <h3>🌐 Find me on</h3>
       <p>
         <a href="https://facebook.com/yourprofile" target="_blank">
           <img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook">
