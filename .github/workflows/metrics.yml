@@ -28,7 +28,7 @@ jobs:
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          user: robe_izanagi
+          user: robe-izanagi
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: true
