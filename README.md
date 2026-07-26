@@ -37,7 +37,7 @@
       <ul>
         <li>Chill guy who codes</li>
         <li>Full Stack Developer</li>
-        <li>Still learning, always curious</li>
+        <li>Still learning</li>
         <li>Enjoy building web apps</li>
         <li>Rubber ducking gods 🦆 - talk to the duck, find the bug</li>
       </ul>
