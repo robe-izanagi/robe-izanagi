@@ -35,7 +35,7 @@
       </p>
       <h3>✨ Fun Facts</h3>
       <ul>
-        <li>Chill guy who codes</li>
+        <li>Wannabe - Senior full stack software developer (before 2029)</li>
         <li>Full Stack Developer</li>
         <li>Still learning</li>
         <li>Enjoy building web apps</li>
