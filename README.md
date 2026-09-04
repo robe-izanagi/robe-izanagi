@@ -37,7 +37,6 @@
       <ul>
         <li>Wannabe - Senior full stack developer</li>
         <li>Full Stack Developer</li>
-        <li>Still learning</li>
         <li>Enjoy building web apps</li>
         <li>Rubber ducking gods 🦆 - talk to the duck, find the bug</li>
       </ul>
